@@ -3,20 +3,20 @@ import React from "react";
 function Links() {
   return (
     <div>
-      <ul>
-        <li>
+      <ul className="text-gray-600 text-2xl">
+        <li className="py-4">
           <a href="#About" rel="">
             {" "}
             About
           </a>
         </li>
-        <li>
+        <li className="py-4">
           <a href="#Experience" rel="">
             {" "}
             Experience
           </a>
         </li>
-        <li>
+        <li className="py-4">
           <a href="#Projects" rel="">
             Projects
           </a>

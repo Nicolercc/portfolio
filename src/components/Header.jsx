@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <div className="py-24 px-4">
-        <h1 className="text-6xl font-bold text-gray-600 ">Nicole Rodriguez</h1>
-        <p className="text-3xl font-semibold py-3 text-gray-600">
+        <h1 className="text-6xl font-bold ">Nicole Rodriguez</h1>
+        <p className="text-3xl font-semibold py-3 ">
           Junior Full-stack Engineer
         </p>
         <p className="text-2xl py-3 text-gray-600">
