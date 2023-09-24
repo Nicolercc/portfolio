@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import { Layout } from "./components/layout";
+import { Layout } from "./components/Layout";
 import { Main } from "./components/main";
 
 function App() {

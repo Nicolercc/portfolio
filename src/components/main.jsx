@@ -1,4 +1,65 @@
-import { Divider } from "./divider";
+import { Divider } from "./Divider";
+import { ExperienceCard } from "./ExperienceCard";
+
+const experience = [
+  {
+    startDate: 2018,
+    endDate: "present",
+    position: "Software Engineer",
+    company: "Expedia",
+    otherPositionsAtCompany: ["Engineering Intern"],
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        efficitur iaculis enim, vel congue diam mattis in.`,
+    technologies: [
+      "React",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "JavaScript",
+      "Jest",
+      "Git",
+      "Github",
+    ],
+  },
+  {
+    startDate: 2018,
+    endDate: "present",
+    position: "Software Engineer",
+    company: "Expedia",
+    otherPositionsAtCompany: ["Engineering Intern"],
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        efficitur iaculis enim, vel congue diam mattis in.`,
+    technologies: [
+      "React",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "JavaScript",
+      "Jest",
+      "Git",
+      "Github",
+    ],
+  },
+  {
+    startDate: 2018,
+    endDate: "present",
+    position: "Software Engineer",
+    company: "Expedia",
+    otherPositionsAtCompany: ["Engineering Intern"],
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        efficitur iaculis enim, vel congue diam mattis in.`,
+    technologies: [
+      "React",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "JavaScript",
+      "Jest",
+      "Git",
+      "Github",
+    ],
+  },
+];
 
 export function Main() {
   return (
@@ -19,149 +80,10 @@ export function Main() {
       </section>
 
       <section className="flex flex-col gap-y-2">
-        <div className="overflow-hidden rounded-lg bg-white shadow">
-          <div className="px-4 py-5 sm:p-6 flex">
-            <div className="h-full w-1/5 border-purple-500 overflow-hidden">
-              <p className="overflow-hidden text-ellipsis">time_in_company</p>
-            </div>
-            <div className="h-full w-4/5 border-purple-500">
-              <div className="pb-2">
-                <p>last_position * company_name</p>
-                <p>previous_position</p>
-                <p>previous_position</p>
-              </div>
-
-              <p className="pb-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse efficitur iaculis enim, vel congue diam mattis in.
-                Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos.
-              </p>
-
-              <div className="flex gap-2 flex-wrap">
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-                <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                  React
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="overflow-hidden rounded-lg bg-white shadow">
-          <div className="px-4 py-5 sm:p-6">
-            <div className="px-4 py-5 sm:p-6 flex">
-              <div className="h-full w-1/5 border-purple-500 overflow-hidden">
-                <p className="overflow-hidden text-ellipsis">time_in_company</p>
-              </div>
-              <div className="h-full w-4/5 border-purple-500">
-                <div className="pb-2">
-                  <p>last_position * company_name</p>
-                  <p>previous_position</p>
-                  <p>previous_position</p>
-                </div>
-
-                <p className="pb-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse efficitur iaculis enim, vel congue diam mattis in.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-                </p>
-
-                <div className="flex gap-2 flex-wrap">
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="overflow-hidden rounded-lg bg-white shadow">
-          <div className="px-4 py-5 sm:p-6">
-            <div className="px-4 py-5 sm:p-6 flex">
-              <div className="h-full w-1/5 border-purple-500 overflow-hidden">
-                <p className="overflow-hidden text-ellipsis">time_in_company</p>
-              </div>
-              <div className="h-full w-4/5 border-purple-500">
-                <div className="pb-2">
-                  <p>last_position * company_name</p>
-                  <p>previous_position</p>
-                  <p>previous_position</p>
-                </div>
-
-                <p className="pb-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse efficitur iaculis enim, vel congue diam mattis in.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-                </p>
-
-                <div className="flex gap-2 flex-wrap">
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                  <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
-                    React
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {experience.map((exp) => (
+          <ExperienceCard {...exp} />
+        ))}
       </section>
-      {/* <section></section>
-      <section></section>
-      <section></section> */}
     </div>
   );
 }
