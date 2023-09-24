@@ -2,7 +2,7 @@ export function Main() {
   return (
     <div className="py-24">
       <section>
-        <p className="text-gray-600">
+        <p className="text-gray-600 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis
           leo sed ligula fermentum, vitae porttitor massa finibus. Nunc vel
           ipsum sit amet dolor rhoncus tempus. In at faucibus mauris. Donec
