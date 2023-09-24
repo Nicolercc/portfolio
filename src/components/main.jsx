@@ -80,8 +80,8 @@ export function Main() {
       </section>
 
       <section className="flex flex-col gap-y-2">
-        {experience.map((exp) => (
-          <ExperienceCard {...exp} />
+        {experience.map((exp, index) => (
+          <ExperienceCard key={index} {...exp} />
         ))}
       </section>
     </div>

@@ -20,16 +20,19 @@ export function ExperienceCard({
             <p>
               {position} * {company}
             </p>
-            {otherPositionsAtCompany.map((pos) => (
-              <p>{pos}</p>
+            {otherPositionsAtCompany.map((pos, index) => (
+              <p key={index}>{pos}</p>
             ))}
           </div>
 
           <p className="pb-2">{description}</p>
 
           <div className="flex gap-2 flex-wrap">
-            {technologies.map((tech) => (
-              <div className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500">
+            {technologies.map((tech, index) => (
+              <div
+                className="rounded-full bg-zinc-100 w-fit px-3 py-1 text-slate-500"
+                key={index}
+              >
                 {tech}
               </div>
             ))}
