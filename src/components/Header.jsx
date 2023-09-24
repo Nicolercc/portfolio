@@ -1,14 +1,22 @@
 import React from "react";
+import Links from "./Links";
 
 function Header() {
   return (
-    <div className="py-24">
-      <h1 className="text-7xl font-bold py-4">Nicole Rodriguez</h1>
-      <p className="text-4xl font-semibold py-3">Jr. Full-stack Engineer</p>
-      <p className="text-2xl py-3">
-        I build accessible, inclusive products and digital experiences for the
-        web.
-      </p>
+    <div>
+      <div className="py-24 px-4">
+        <h1 className="text-6xl font-bold text-gray-600 ">Nicole Rodriguez</h1>
+        <p className="text-3xl font-semibold py-3 text-gray-600">
+          Junior Full-stack Engineer
+        </p>
+        <p className="text-2xl py-3 text-gray-600">
+          I build accessible, inclusive products and digital experiences for the
+          web.
+        </p>
+      </div>
+      <div className="Links container">
+        <Links />
+      </div>
     </div>
   );
 }
