@@ -3,22 +3,22 @@ import React from "react";
 function Links() {
   return (
     <div>
-      <ul className="text-gray-600 text-2xl">
+      <ul className="text-gray-600  font-semibold">
         <li className="py-4">
           <a href="#About" rel="">
             {" "}
-            About
+            ABOUT
           </a>
         </li>
         <li className="py-4">
           <a href="#Experience" rel="">
             {" "}
-            Experience
+            EXPERIENCE
           </a>
         </li>
         <li className="py-4">
           <a href="#Projects" rel="">
-            Projects
+            PROJECTS
           </a>
         </li>
       </ul>
