@@ -6,9 +6,7 @@ export function Layout({ HeaderComponent, MainComponent }) {
       <header className="sticky gitborder-2 border-red-500 w-1/2 px-5">
         {HeaderComponent}
       </header>
-      <main className="border-2 border-yellow-500 w-1/2 px-5">
-        {MainComponent}
-      </main>
+      <main className="w-1/2 px-5">{MainComponent}</main>
     </div>
   );
 }
